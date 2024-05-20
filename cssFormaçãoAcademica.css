@@ -1,0 +1,109 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a div "Portfólio" dentro do cabeçalho */
+header div.portfolio {
+    background-color: #d0d0d0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 5px 0;
+    font-size: 2em; /* Maior fonte para Portfólio */
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para a div "Jonas Dutra" dentro do cabeçalho */
+header div.jonas {
+    background-color: #d0d0d0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 5px 0;
+    font-size: 1.75em; /* Fonte um pouco menor para Jonas Dutra */
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para o menu de navegação */
+nav {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os links do menu de navegação */
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para o conteúdo principal da página */
+main {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para os títulos (h1) */
+h1 {
+    background-color: #e0e0e0;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 2em; /* Maior que o parágrafo */
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilos para os parágrafos (p) */
+p {
+    background-color: #f0f0f0;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    color: #333;
+    font-size: 1.25em; /* Fonte maior para o parágrafo */
+    margin-top: 10px;
+}
+
+/* Estilos para listas não ordenadas (ul) */
+ul {
+    background-color: #f0f0f0;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    color: #333;
+    font-size: 1.25em; /* Fonte maior para a lista */
+    margin-top: 10px;
+    text-align: left;
+    list-style-type: disc; /* Definindo os marcadores como bolinhas */
+    padding-left: 40px; /* Espaçamento para alinhar os itens da lista */
+}
+
+/* Estilos para os itens da lista (li) */
+ul li {
+    margin-bottom: 10px;
+}
